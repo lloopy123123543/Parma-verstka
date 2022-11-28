@@ -1,0 +1,109 @@
+.header{
+    width: 100%;
+    height: 74px;
+    background-color: #EAEAEA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+
+    width: 5%;
+    height: 100%;
+}
+@media screen and (max-width: 580px) {
+
+    .logo{
+        display: none;
+    }
+    .header{
+        justify-content: center;
+    }
+
+
+  }
+.row{
+
+    padding-right: 50px;
+    display: flex;
+    gap: 41px;
+}
+.col{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 39px;
+    color: #646464;
+    cursor: pointer;
+}
+.col:hover{
+    color: #ED1C24;
+    transition: 0.25s;
+}
+.main{
+    width: 100%;
+    height: auto;
+    min-height: 604px;
+    background: url("../images/main_bg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-text{
+    width: 80%;
+    height: auto;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 59px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main-button{
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ED1C24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+    margin-top: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.main-button:hover{
+    background-color: white;
+    color: #ED1C24;
+
+}
+.parma-info{
+    width: 100%;
+    min-height: 1080px;
+    height: auto;
+    background: linear-gradient(180deg, #ED1C24 35.42%, #B3040A 100%);
+}
+.parma-info-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+}
+.parma-info-subtitle{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parma-info-subtitle-text{
+    padding-top: 10px;
+    width: 70%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 39px;
+    color: white;
+}
