@@ -20,6 +20,9 @@
     .header{
         justify-content: center;
     }
+    .parma-info-logo{
+        display: hidden;
+    }
 
 
   }
@@ -61,6 +64,7 @@
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
+     text-shadow: 3px 3px 0px black;
 }
 .main-button{
     width: 220px;
@@ -90,7 +94,9 @@
 .parma-info-logo{
     display: flex;
     justify-content: center;
-    padding-top: 34px;
+    align-items: center;
+    padding-top: 20px;
+
 }
 .parma-info-subtitle{
 
@@ -106,4 +112,76 @@
     font-size: 26px;
     line-height: 39px;
     color: white;
+}
+.parma-info-blocks{
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+
+}
+.parma-info-block{
+    width: 320px;
+    height: 236px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.parma-block-text{
+
+}
+.parma_blocks_trio{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contacts{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+
+}
+.contacts-title{
+    font-size: 50px;
+    color: white;
+
+}
+.contacts-blocks{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.contact-block{
+    margin-top:50px ;
+    width: 420px;
+    height: 350px;
+
+    background-color: white;
+}
+.contact-block-title{
+
+
+}
+.contact-block-text{
+
+}
+.contact-block-text1{
+
+}
+.contact-block-text2{
+
 }
