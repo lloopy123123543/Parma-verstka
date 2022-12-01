@@ -1,6 +1,6 @@
 .header{
     width: 100%;
-    height: 74px;
+    height: 50px;
     background-color: #EAEAEA;
     display: flex;
     justify-content: space-between;
@@ -67,14 +67,15 @@
      text-shadow: 3px 3px 0px black;
 }
 .main-button{
-    width: 220px;
-    height: 50px;
+    width: 230px;
+    height: 55px;
     border-radius: 10px;
     background-color: #ED1C24;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 22px;
+    font-weight: 700;
     color: white;
     margin-top: 20px;
     transition: 0.25s;
@@ -135,7 +136,12 @@
 
 }
 .parma-block-text{
-
+    font-size: 18px;
+    font-weight: 700;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #818181;
+    cursor: default;
 }
 .parma_blocks_trio{
     width: 100%;
@@ -148,12 +154,16 @@
 .contacts{
     width: 100%;
     height: 900px;
-    background-color: black;
+    background: url("../images/contacts_bg.png");
+    background-size: cover;
 
 }
 .contacts-title{
     font-size: 50px;
-    color: white;
+    font-weight: 700;
+    color: #5E5E5E;
+    padding-left: 15%;
+    background-color: rgba(255, 255, 255, 0.7);
 
 }
 .contacts-blocks{
@@ -166,22 +176,42 @@
 
 }
 .contact-block{
-    margin-top:50px ;
+    margin-top: 50px;
     width: 420px;
     height: 350px;
-
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .contact-block-title{
-
-
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+    font-size: 42px;
+    font-weight: 700;
+    color: #EE1D25;
+    padding-left: 50px;
 }
 .contact-block-text{
 
 }
 .contact-block-text1{
-
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+    font-size: 32px;
+    font-weight: 600;
+    color: #818181; 
+    padding-bottom: 10px;
+    padding-left: 50px;
 }
 .contact-block-text2{
-
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+    font-size: 32px;
+    font-weight: 600;
+    color: #818181;
+    padding-left: 50px;
 }
