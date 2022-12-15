@@ -192,13 +192,13 @@
     font-weight: 500;
 }
 .test_create:hover{
-    background-color: #cccccc;
+    background-color: #E8E8E8;
 }
 .test_create:hover .test_create_button{
     color: white;
 }
 .test:hover{
-    background-color: #cccccc;
+    background-color: #E8E8E8;
     border:1px solid #E8E8E8;
 }
 
